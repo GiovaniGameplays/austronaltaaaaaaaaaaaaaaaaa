@@ -4,11 +4,11 @@
 }
 
 body{
-    background-color: white;
+    background-color: rgb(17, 0, 110);
 }
 
 header{
-    background-color: rgb(232, 246, 243);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,10 +25,20 @@ header{
 }
 
 .principal{
-    background-image: linear-gradient(rgb(232, 246, 243), white);
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(17, 0, 110));
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imagem-principal{
     width: 500px;
+}
+
+.div-principal{
+    width: 35%;
+}
+
+.paragrafo{
+    text-align: center;
 }
