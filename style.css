@@ -4,7 +4,8 @@
 }
 
 body{
-    background-color: rgb(17, 0, 110);
+    background-color: #4780eb;
+    margin: 0 0 40px;
 }
 
 header{
@@ -13,32 +14,53 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 24px 0;
+    
 }
 
 .item-lista-cabeçalho{
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 35px;
     font-size: 25px;
 }
 .img-cabeçalho{
-    height: 200px;
+    height: 400px;
 }
 
 .principal{
-    background-image: linear-gradient(rgb(255, 255, 255), rgb(17, 0, 110));
+    background-image: linear-gradient(rgb(255, 255, 255), #4780eb);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .imagem-principal{
-    width: 500px;
+    width: 800px;
 }
 
 .div-principal{
     width: 35%;
+   margin: 100px;
+}
+.paragrafo{
+    text-align: justify;
+   
 }
 
-.paragrafo{
+h1{
+    font-family: 'Oswald', sans-serif;
     text-align: center;
+    
 }
+
+.missao{
+    width: 50%;
+   margin: 0 auto;
+   text-align: justify;
+}
+/*
+.div-redes-sociais{
+    text-align: center;
+    margin: 20px 0;
+}
+.redes-sociais{
+    width: 5%;
+}*/
